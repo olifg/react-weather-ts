@@ -1,0 +1,39 @@
+
+.container
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin: .5rem 0
+
+.inputs-container
+    display: flex
+    flex-direction: row
+    width: 100%
+    align-items: center
+    justify-content: center
+    margin-bottom: .5rem
+
+.text-input
+    font-weight: 300
+    padding: .5rem
+    margin: 0 .5rem
+    width: 35rem
+    text-transform: capitalize
+    border: none
+    font-size: 1.1rem
+
+    &::placeholder
+        text-transform: lowercase
+
+    &:focus
+        outline: 1px solid transparent
+        outline-offset: 2px
+
+.button
+    color: #fafafa
+    cursor: pointer
+    margin: 0 .1rem
+    &:hover
+        transform: scale(1.25)
+        transition: transform .2s ease-out
