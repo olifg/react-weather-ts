@@ -1,21 +1,21 @@
 # React Weather App
 
-- ReactJS + Vite + Typescript + SASS + CSS Modules.
+- ReactJS + Vite + Typescript + SASS
 
-Demo: https://olifg-react-ts-weather.netlify.app/
+- Demo: https://olifg-react-ts-weather.netlify.app/
 
-Mobile:
+- Mobile:
 
 ![image](https://user-images.githubusercontent.com/20329802/218359513-357dcf38-35c9-45ee-9e19-90623bacb6e3.png)
 
-Tablet:
+- Tablet:
 
 ![image](https://user-images.githubusercontent.com/20329802/218359549-d4672869-39b7-415e-905d-0eccd32c32da.png)
 
 - Powered by OpenWeather API.
 https://openweathermap.org/
 
-Inspired by:
+- Inspired by:
 
 https://www.youtube.com/watch?v=cWk5EKVxrgo 
 
