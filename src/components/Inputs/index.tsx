@@ -82,7 +82,7 @@ export function Inputs({ setQuery }: InputProps) {
     return (
         <div className={styles.container}>
             <div className={styles['inputs-container']}>
-                <input maxLength={30} type="text" placeholder='Search for city..' className={styles['text-input']} onChange={handleQueryChange} />
+                <input maxLength={30} type="search" placeholder='Search for city..' className={styles['text-input']} onChange={handleQueryChange} />
                 <SearchIcon extraClasses={styles.button} width={25} height={25} onClick={handleSearchClick} />
                 <LocationIcon extraClasses={styles.button} width={25} height={25} onClick={handleLocationClick} />
             </div>

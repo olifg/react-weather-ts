@@ -28,6 +28,8 @@ function App() {
     await getFormattedWeatherData({ ...query, units }).then((formattedWeatherData: FormattedWeatherData) => {
       toast.success(`Successfully fetched weather for ${formattedWeatherData.name}, ${formattedWeatherData.country}`)
       setWeather(formattedWeatherData);
+    }).catch((e) => {
+      toast.error(`We were unable to find a city using, ${city}`)
     })
   }
 
