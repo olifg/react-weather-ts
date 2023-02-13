@@ -3,6 +3,34 @@ interface Coord {
     lat: number;
 }
 
+export interface CurrentWeather {
+    coord: {
+        lat: number;
+        lon: number;
+    }
+    main: {
+        temp: number;
+        feels_like: number;
+        temp_min: number;
+        temp_max: number;
+        humidity: number;
+    }
+    name: string;
+    dt: number;
+    sys: {
+        country: string;
+        sunrise: number;
+        sunset: number;
+    }
+    weather: {
+        main: string;
+        icon: string;
+    }[];
+    wind: {
+        speed: number;
+    }
+}
+
 interface Weather {
     id: number;
     main: string;

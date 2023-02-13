@@ -1,4 +1,4 @@
-import { FormattedWeatherData, OneCallWeatherData } from "./types";
+import { CurrentWeather, FormattedWeatherData, OneCallWeatherData } from "./types";
 import { DateTime } from 'luxon'
 
 export const OPEN_WEATHER_API_KEY = `ADD_YOUR_API_KEY`;
@@ -24,7 +24,7 @@ const getWeatherData = (queryType: QueryType, searchParams: any): Promise<any> =
     return fetch(url).then((res) => res.json()).then((data: any) => data);
 }
 
-const formatCurrentWeather = (data: any): FormattedWeatherData => {
+const formatCurrentWeather = (data: CurrentWeather): FormattedWeatherData => {
     const {
         coord: { lat, lon },
         main: { temp, feels_like, temp_min, temp_max, humidity },
