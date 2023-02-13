@@ -2,7 +2,7 @@ import { getFormattedWeatherData, WeatherSearchParams } from './services/weather
 import { Forecast } from './components/Forecast'
 import { Inputs } from './components/Inputs'
 import { Stats } from './components/Stats'
-import { TimeAndLocation } from './components/TimeAndLocation.tsx'
+import { TimeAndLocation } from './components/TimeAndLocation'
 import { useEffect, useState } from 'react'
 import { FormattedWeatherData } from './services/types'
 import { Units } from './components/Units'
@@ -29,7 +29,7 @@ function App() {
       toast.success(`Successfully fetched weather for ${formattedWeatherData.name}, ${formattedWeatherData.country}`)
       setWeather(formattedWeatherData);
     }).catch((e) => {
-      toast.error(`We were unable to find a city using, ${city}`)
+      toast.error(`We were unable to find a city using "${city}"`)
     })
   }
 
