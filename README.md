@@ -19,5 +19,5 @@ https://sass-lang.com/
 https://openweathermap.org/
 
 Inspired by:
-https://www.youtube.com/watch?v=cWk5EKVxrgo 
+https://www.youtube.com/watch?v=cWk5EKVxrgo and  
 https://medium.com/@JonUK/designing-and-developing-a-responsive-weather-app-webpage-part-1-b155b004a5ba
