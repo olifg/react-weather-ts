@@ -1,7 +1,7 @@
 import { FormattedWeatherData, OneCallWeatherData } from "./types";
 import { DateTime } from 'luxon'
 
-export const OPEN_WEATHER_API_KEY = `b006bd3061e948fdacb9aa045aff29b1`;
+export const OPEN_WEATHER_API_KEY = `REPLACE_WITH_YOUR_API_KEY`;
 export const OW_BASE_URL = `https://api.openweathermap.org/data/2.5/`
 
 type QueryType =
