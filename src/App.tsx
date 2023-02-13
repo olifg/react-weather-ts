@@ -15,7 +15,7 @@ import styles from './styles.module.sass';
 
 function App() {
 
-  const [query, setQuery] = useState<WeatherSearchParams>({ q: 'Buenos Aires' });
+  const [query, setQuery] = useState<WeatherSearchParams>({ q: 'Cape Canaveral' });
   const [units, setUnits] = useState<WeatherSearchParams['units']>('metric');
   const [weather, setWeather] = useState<any | null>(null);
 
